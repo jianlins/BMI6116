@@ -45,8 +45,7 @@
         </value>
       </nameValuePair>
     </configurationParameterSettings>
-    <typeSystemDescription>
-      </typeSystemDescription>
+    <typeSystemDescription/>
     <typePriorities/>
     <fsIndexCollection/>
     <capabilities>
@@ -80,7 +79,19 @@
       <interfaceName>org.apache.ctakes.core.resource.FileResource</interfaceName>
       <optional>false</optional>
     </externalResourceDependency>
-    </externalResourceDependencies>
+    <externalResourceDependency>
+      <key>RxnormIndexReader</key>
+      <description/>
+      <interfaceName>org.apache.ctakes.core.resource.LuceneIndexReaderResource</interfaceName>
+      <optional>false</optional>
+    </externalResourceDependency>
+    <externalResourceDependency>
+      <key>OrangeBookIndexReader</key>
+      <description/>
+      <interfaceName>org.apache.ctakes.core.resource.LuceneIndexReaderResource</interfaceName>
+      <optional>false</optional>
+    </externalResourceDependency>
+  </externalResourceDependencies>
   <resourceManagerConfiguration>
     <externalResources>
       <externalResource>

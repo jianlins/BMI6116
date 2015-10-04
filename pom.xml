@@ -3,7 +3,6 @@
   <groupId>edu.utah.bmi</groupId>
   <version>0.0.1-SNAPSHOT</version>
   <name>iec</name>
-  <description>test</description>
   <dependencies>
 		<dependency>
 			<groupId>org.apache.ctakes</groupId>
@@ -56,6 +55,12 @@
 			<artifactId>ctakes-dictionary-lookup</artifactId>
 			<version>3.2.2</version>
 		</dependency>
+		<dependency>
+			<groupId>org.apache.ctakes</groupId>
+			<artifactId>ctakes-core-res</artifactId>
+			<version>3.2.2</version>
+		</dependency>
   </dependencies>
   <artifactId>bmi6116</artifactId>
+  <description>This is a project for BMI6116 course. It customize the dictionary look up in cTAKES and output annotations in csv format.</description>
 </project>
